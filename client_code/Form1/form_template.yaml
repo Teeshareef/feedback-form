@@ -41,6 +41,7 @@ components:
     properties: {text: SUBMIT, role: primary-color}
     type: Button
     layout_properties: {grid_position: 'ONIBQR,PEFNLN'}
+    event_bindings: {click: submit_button_click}
 - type: FlowPanel
   properties: {}
   name: navbar_links
